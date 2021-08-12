@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 tvMain.setText(response.body().getWeather().get(0).getMain());
                 tvDesc.setText(response.body().getWeather().get(0).getDescription());
                 tvTemp.setText(response.body().getMain().getTemp().toString());
-                tvHumidity.setText(response.body().getMain().getHumidity().toString();
+                tvHumidity.setText(response.body().getMain().getHumidity().toString());
             }
 
             @Override
